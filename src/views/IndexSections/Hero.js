@@ -28,7 +28,7 @@ class Hero extends React.Component {
           {/* Hero for FREE version */}
           <section className="section section-hero section-shaped">
             {/* Background circles */}
-            <div className="shape shape-style-1 shape-default">
+            <div className="shape shape-style-1 shape-dark">
               <span className="span-150" />
               <span className="span-50" />
               <span className="span-50" />
@@ -47,44 +47,42 @@ class Hero extends React.Component {
                     <img
                       alt="..."
                       className="img-fluid"
-                      src={require("assets/img/brand/argon-react-white.png")}
-                      style={{ width: "200px" }}
+                      src={require("assets/img/brand/uniandes-bancolombia-react-white.png")}
+                      style={{ width: "400px" }}
                     />
                     <p className="lead text-white">
-                      A beautiful Design System for Bootstrap 4. It's Free and
-                      Open Source.
+                      Self-identity project for Uniandes students using
+                      blockchain and web 3.0 technologies.
                     </p>
                     <div className="btn-wrapper mt-5">
-                      <Button
+                      {/* <Button
                         className="btn-white btn-icon mb-3 mb-sm-0"
                         color="default"
                         href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
-                        size="lg"
-                      >
+                        size="lg">
                         <span className="btn-inner--icon mr-1">
                           <i className="ni ni-cloud-download-95" />
                         </span>
                         <span className="btn-inner--text">Download React</span>
-                      </Button>{" "}
+                      </Button>{" "} */}
                       <Button
                         className="btn-icon mb-3 mb-sm-0"
-                        color="github"
-                        href="https://github.com/creativetimofficial/argon-design-system-react"
+                        color="white"
+                        href="https://github.com/andrespd1/uniandes-card-front"
                         size="lg"
-                        target="_blank"
-                      >
+                        target="_blank">
                         <span className="btn-inner--icon mr-1">
                           <i className="fa fa-github" />
                         </span>
                         <span className="btn-inner--text">
-                          <span className="text-warning mr-1">Star us</span>
+                          <span className="text-warning mr-1">Repository</span>
                           on Github
                         </span>
                       </Button>
                     </div>
                     <div className="mt-5">
                       <small className="text-white font-weight-bold mb-0 mr-2">
-                        *proudly coded by
+                        *developed by
                       </small>
                       <img
                         alt="..."
@@ -105,8 +103,7 @@ class Hero extends React.Component {
                 version="1.1"
                 viewBox="0 0 2560 100"
                 x="0"
-                y="0"
-              >
+                y="0">
                 <polygon
                   className="fill-white"
                   points="2560 0 2560 100 0 100"

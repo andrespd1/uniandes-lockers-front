@@ -44,7 +44,7 @@ class SimpleFooter extends React.Component {
                   Let's get in touch on any of these platforms.
                 </h4>
               </Col>
-              <Col className="text-lg-center btn-wrapper" lg="6">
+              {/* <Col className="text-lg-center btn-wrapper" lg="6">
                 <Button
                   className="btn-icon-only rounded-circle"
                   color="twitter"
@@ -101,7 +101,7 @@ class SimpleFooter extends React.Component {
                 <UncontrolledTooltip delay={0} target="tooltip495507257">
                   Star on Github
                 </UncontrolledTooltip>
-              </Col>
+              </Col> */}
             </Row>
             <hr />
             <Row className=" align-items-center justify-content-md-between">
@@ -110,9 +110,8 @@ class SimpleFooter extends React.Component {
                   © {new Date().getFullYear()}{" "}
                   <a
                     href="https://www.creative-tim.com?ref=adsr-footer"
-                    target="_blank"
-                  >
-                    Creative Tim
+                    target="_blank">
+                    Uniandes & Bancolombia
                   </a>
                   .
                 </div>
@@ -122,32 +121,28 @@ class SimpleFooter extends React.Component {
                   <NavItem>
                     <NavLink
                       href="https://www.creative-tim.com?ref=adsr-footer"
-                      target="_blank"
-                    >
+                      target="_blank">
                       Creative Tim
                     </NavLink>
                   </NavItem>
                   <NavItem>
                     <NavLink
                       href="https://www.creative-tim.com/presentation?ref=adsr-footer"
-                      target="_blank"
-                    >
+                      target="_blank">
                       About Us
                     </NavLink>
                   </NavItem>
                   <NavItem>
                     <NavLink
                       href="http://blog.creative-tim.com?ref=adsr-footer"
-                      target="_blank"
-                    >
+                      target="_blank">
                       Blog
                     </NavLink>
                   </NavItem>
                   <NavItem>
                     <NavLink
                       href="https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md"
-                      target="_blank"
-                    >
+                      target="_blank">
                       MIT License
                     </NavLink>
                   </NavItem>

@@ -67,15 +67,14 @@ class DemoNavbar extends React.Component {
       <>
         <header className="header-global">
           <Navbar
-            className="navbar-main navbar-transparent navbar-light headroom"
+            className="navbar-main navbar-transparent navbar-dark headroom"
             expand="lg"
-            id="navbar-main"
-          >
+            id="navbar-main">
             <Container>
               <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
                 <img
                   alt="..."
-                  src={require("assets/img/brand/argon-react-white.png")}
+                  src={require("assets/img/brand/uniandes-bancolombia-react-white.png")}
                 />
               </NavbarBrand>
               <button className="navbar-toggler" id="navbar_global">
@@ -86,8 +85,7 @@ class DemoNavbar extends React.Component {
                 navbar
                 className={this.state.collapseClasses}
                 onExiting={this.onExiting}
-                onExited={this.onExited}
-              >
+                onExited={this.onExited}>
                 <div className="navbar-collapse-header">
                   <Row>
                     <Col className="collapse-brand" xs="6">
@@ -117,8 +115,7 @@ class DemoNavbar extends React.Component {
                         <Media
                           className="d-flex align-items-center"
                           href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/overview?ref=adsr-navbar"
-                          target="_blank"
-                        >
+                          target="_blank">
                           <div className="icon icon-shape bg-gradient-primary rounded-circle text-white">
                             <i className="ni ni-spaceship" />
                           </div>
@@ -135,8 +132,7 @@ class DemoNavbar extends React.Component {
                         <Media
                           className="d-flex align-items-center"
                           href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/colors?ref=adsr-navbar"
-                          target="_blank"
-                        >
+                          target="_blank">
                           <div className="icon icon-shape bg-gradient-success rounded-circle text-white">
                             <i className="ni ni-palette" />
                           </div>
@@ -153,8 +149,7 @@ class DemoNavbar extends React.Component {
                         <Media
                           className="d-flex align-items-center"
                           href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alert?ref=adsr-navbar"
-                          target="_blank"
-                        >
+                          target="_blank">
                           <div className="icon icon-shape bg-gradient-warning rounded-circle text-white">
                             <i className="ni ni-ui-04" />
                           </div>
@@ -193,13 +188,12 @@ class DemoNavbar extends React.Component {
                   </UncontrolledDropdown>
                 </Nav>
                 <Nav className="align-items-lg-center ml-lg-auto" navbar>
-                  <NavItem>
+                  {/* <NavItem>
                     <NavLink
                       className="nav-link-icon"
                       href="https://www.facebook.com/creativetim"
                       id="tooltip333589074"
-                      target="_blank"
-                    >
+                      target="_blank">
                       <i className="fa fa-facebook-square" />
                       <span className="nav-link-inner--text d-lg-none ml-2">
                         Facebook
@@ -214,8 +208,7 @@ class DemoNavbar extends React.Component {
                       className="nav-link-icon"
                       href="https://www.instagram.com/creativetimofficial"
                       id="tooltip356693867"
-                      target="_blank"
-                    >
+                      target="_blank">
                       <i className="fa fa-instagram" />
                       <span className="nav-link-inner--text d-lg-none ml-2">
                         Instagram
@@ -230,8 +223,7 @@ class DemoNavbar extends React.Component {
                       className="nav-link-icon"
                       href="https://twitter.com/creativetim"
                       id="tooltip184698705"
-                      target="_blank"
-                    >
+                      target="_blank">
                       <i className="fa fa-twitter-square" />
                       <span className="nav-link-inner--text d-lg-none ml-2">
                         Twitter
@@ -240,14 +232,13 @@ class DemoNavbar extends React.Component {
                     <UncontrolledTooltip delay={0} target="tooltip184698705">
                       Follow us on Twitter
                     </UncontrolledTooltip>
-                  </NavItem>
+                  </NavItem> */}
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
                       href="https://github.com/creativetimofficial/argon-design-system-react"
                       id="tooltip112445449"
-                      target="_blank"
-                    >
+                      target="_blank">
                       <i className="fa fa-github" />
                       <span className="nav-link-inner--text d-lg-none ml-2">
                         Github
@@ -257,7 +248,7 @@ class DemoNavbar extends React.Component {
                       Star us on Github
                     </UncontrolledTooltip>
                   </NavItem>
-                  <NavItem className="d-none d-lg-block ml-lg-4">
+                  {/* <NavItem className="d-none d-lg-block ml-lg-4">
                     <Button
                       className="btn-neutral btn-icon"
                       color="default"
@@ -271,7 +262,7 @@ class DemoNavbar extends React.Component {
                         Download
                       </span>
                     </Button>
-                  </NavItem>
+                  </NavItem> */}
                 </Nav>
               </UncontrolledCollapse>
             </Container>
