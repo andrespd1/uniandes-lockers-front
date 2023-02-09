@@ -118,7 +118,7 @@ class SimpleFooter extends React.Component {
               </Col>
               <Col md="6">
                 <Nav className=" nav-footer justify-content-end">
-                  <NavItem>
+                  {/* <NavItem>
                     <NavLink
                       href="https://www.creative-tim.com?ref=adsr-footer"
                       target="_blank">
@@ -145,7 +145,7 @@ class SimpleFooter extends React.Component {
                       target="_blank">
                       MIT License
                     </NavLink>
-                  </NavItem>
+                  </NavItem> */}
                 </Nav>
               </Col>
             </Row>

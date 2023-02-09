@@ -75,8 +75,22 @@ class Hero extends React.Component {
                           <i className="fa fa-github" />
                         </span>
                         <span className="btn-inner--text">
-                          <span className="text-warning mr-1">Repository</span>
-                          on Github
+                          <span className="text-warning mr-1">Front</span>
+                          Repository
+                        </span>
+                      </Button>
+                      <Button
+                        className="btn-icon mb-3 mb-sm-0"
+                        color="primary"
+                        href="https://github.com/andrespd1/uniandes-lockers-solidity"
+                        size="lg"
+                        target="_blank">
+                        <span className="btn-inner--icon mr-1">
+                          <i className="fa fa-github" />
+                        </span>
+                        <span className="btn-inner--text">
+                          <span className="text-warning mr-1">Solidity</span>
+                          Repository
                         </span>
                       </Button>
                     </div>

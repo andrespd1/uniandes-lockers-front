@@ -236,7 +236,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://github.com/creativetimofficial/argon-design-system-react"
+                      href="https://github.com/andrespd1/uniandes-lockers-solidity"
                       id="tooltip112445449"
                       target="_blank">
                       <i className="fa fa-github" />
@@ -245,7 +245,7 @@ class DemoNavbar extends React.Component {
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip112445449">
-                      Star us on Github
+                      Solidity Repository
                     </UncontrolledTooltip>
                   </NavItem>
                   {/* <NavItem className="d-none d-lg-block ml-lg-4">
